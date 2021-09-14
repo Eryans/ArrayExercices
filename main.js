@@ -21,7 +21,7 @@ console.log(items[3]);
 console.log(items[0]);
 //Show Array's first element
 
-/*
+
 //Exercice 3
 var player = ["John","Doe",34,true];
 console.log(player);
@@ -31,7 +31,7 @@ player[2] = 40;
 console.log(player[2]);
 console.log(player[3]);
 //This would not be pratical at all
-*/
+
 
 var player = {"firstname":"John","lastname":"Doe","age":34,"isAdult":true};
 console.log(player);
