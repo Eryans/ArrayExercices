@@ -2,10 +2,10 @@
 // Exercice 1
 var items = new Array();
 console.log(items);
-items = []; // Error should happend but does not... ???
+items = []; 
 console.log(items);
-items = new Array;
-console.log(items);
+/*items = (); this is an error.
+console.log(items);*/
 items = ["a","b"];
 console.log(items);
 
@@ -33,7 +33,12 @@ console.log(player[3]);
 //This would not be pratical at all
 
 
-var player = {"firstname":"John","lastname":"Doe","age":34,"isAdult":true};
+var player = {
+    "firstname":"John",
+    "lastname":"Doe",
+    "age":34,
+    "isAdult":true
+            };
 console.log(player);
 console.log(player["firstname"] + " " + player["lastname"]);
 player["age"] = 40;
