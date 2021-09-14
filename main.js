@@ -1,15 +1,15 @@
-/*
+
 // Exercice 1
 var items = new Array();
 console.log(items);
-items = [];
+items = []; // Error should happend but does not... ???
 console.log(items);
 items = new Array;
 console.log(items);
 items = ["a","b"];
 console.log(items);
 
-*/
+
 
 //Exercice 2
 var items = ["premier élément", "deuxième élément","troisième élément","quatrième élément"];
